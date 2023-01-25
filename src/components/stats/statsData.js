@@ -60,13 +60,13 @@ const StatsData = ({dataStats,typeControl}) =>{
 
     return(
         <>
-            <ul className="nav nav-tabs" id="myTab" role="tablist">
-                {showAllStats()}
-            </ul>
+                <ul className="nav nav-tabs" id="myTab" role="tablist">
+                    {showAllStats()}
+                </ul>
 
-            <div className="tab-content" id="myTabContent">
-                {showDataStats()}
-            </div>
+                <div className="tab-content mt-2" id="myTabContent">
+                    {showDataStats()}
+                </div>
         </>
     )
 }
